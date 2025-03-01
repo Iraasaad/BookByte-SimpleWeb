@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: #A34343;
+    justify-content: space-around;
+    height: 50px;
+    
+}
+
+.title{
+    background-color: #F8F6E3;
+    height: 37px;
+    margin-top: 5px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page3{
+    color: #A34343;
+    font-weight: 900;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+nav{
+    width: 800px;
+    font-size: 18px;
+}
+nav ul li{
+    cursor: pointer;
+    background-color: #F8F6E3;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+nav ul li:hover{
+    
+    color: #A34343;
+    font-weight: 900;
+
+}
+
+.login{
+    padding-top: 9px;
+}
+
+.login button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #F8F6E3;
+}
+
+body{
+    background-color:  #F8F6E3;
+}
+
+.category li{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+
+
+  
+  .container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .categories-section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .categories-section h2 {
+    font-size: 1.2em;
+  }
+  
+  .book-categories {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-categories li {
+    display: inline-block;
+    /* margin-right: 10px; Adjust spacing between items as needed */
+    padding: 5px 10px;
+    background-color: #A34343;
+    border-radius: 5px;
+    margin: 5px 10px 5px ;
+    color:  #F8F6E3;
+    cursor: pointer;
+  }
+  
+  .book-categories li:hover {
+    background-color: #F8F6E3;
+    color: #A34343;
+  }
+  

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout Form</title>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #F8F6E3;
+}
+
+
+header{
+    display: flex;
+    background-color: #A34343;
+    justify-content: space-around;
+    height: 50px;
+    
+}
+
+.title{
+    background-color: #F8F6E3;
+    height: 37px;
+    margin-top: 5px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page1{
+    color: #A34343;
+    font-weight: 900;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+nav{
+    width: 800px;
+    font-size: 18px;
+}
+nav ul li{
+    cursor: pointer;
+    background-color: #F8F6E3;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+nav ul li:hover{
+    
+    color: #A34343;
+    font-weight: 900;
+
+}
+
+.login{
+    padding-top: 9px;
+}
+
+.login button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #F8F6E3;
+   
+}
+
+
+section{
+    background-color: #A34343;
+    width: 50%;
+    display: block;
+    margin: 100px auto 0px auto;
+    height: 620px;
+    padding: 30px;
+    color: #F8F6E3;
+    border-radius: 10px;
+}
+
+.p1{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.p2{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.p3{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.email{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#email{
+    width: 760px;
+    height: 40px;
+    padding-left:10px ;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 0px 10px;
+}
+
+button{
+    width: 760px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F8F6E3;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #9b998c;
+}
+/* footer */
+
+footer{
+    height: 200px;
+    margin-top: 300px;
+    background-color: #A34343;
+    
+}
+
+footer h1{
+    display: block;
+    margin: 0px auto;
+    margin-top: 100px ; 
+    text-align: center;
+    width: 1000px;
+    font-size: 70px;
+    color: black;
+    background-color: #F8F6E3;
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+    letter-spacing: 100px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>BookByte</h1>
+        </div>
+        <nav>
+            <ul>
+                <a href="./accueil.html"><li class="page1">Home</li></a>
+                <a href="./library.html"><li class="page2">Library</li></a>
+                <a href="./store.html"><li class="page5">Store</li></a>
+                <a href="./tags.html"><li class="page3">Tags</li></a>
+                <a href="./contact.html"><li class="page4">Contact</li></a>
+            </ul>
+        </nav>
+        <div class="login">
+            <button>Login</button>
+            <button>Sign in</button>
+        </div>
+    </header>
+
+        <section>
+            <p class="p1">
+                Your opinion matters to us! Whether you've recently
+            made a purchase, browsed our selection, or have any 
+            suggestions to improve your experience, we want to hear
+            from you. Your feedback helps us enhance our service and provide
+            you with an even better shopping experience.
+            </p>
+            <p class="p2">
+                Please take a moment to share your thoughts with us using the
+            form below. We appreciate your input and strive to make your 
+            experience with us exceptional.
+            </p>
+            <p class="p3">Thank you for choosing us for your book-buying needs!</p>
+            <form action="">
+                <div>
+                <p class="email">Email :</p>
+                <input type="email" name="email" id="email" placeholder="Enter email">
+                </div>
+                
+                <textarea name="" id="" cols="100" rows="15" placeholder="Send feedback"></textarea><br>
+                <button>Send feedback</button>
+            </form>
+        </section>
+<footer>
+    <div><h1>BookByte</h1></div>
+</footer>
+
+
+</body>
+</html>

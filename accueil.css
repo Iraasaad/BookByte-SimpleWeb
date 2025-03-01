@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #F8F6E3;
+  
+}
+
+
+header{
+    display: flex;
+    background-color: #A34343;
+    justify-content: space-around;
+    height: 50px;
+    
+}
+
+.title{
+    background-color: #F8F6E3;
+    height: 37px;
+    margin-top: 5px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page1{
+    color: #A34343;
+    font-weight: 900;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+nav{
+    width: 800px;
+    font-size: 18px;
+}
+nav ul li{
+    cursor: pointer;
+    background-color: #F8F6E3;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+nav ul li:hover{
+    
+    color: #A34343;
+    font-weight: 900;
+
+}
+
+.login{
+    padding-top: 9px;
+}
+
+.login button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #F8F6E3;
+}
+
+
+
+/* div*/
+.quote{
+    text-align: center;
+    margin: 2px 0px 2px 0px;
+    
+}
+.front{
+    display: flex;
+    height: 500px;
+    background-color:#F8F6E3 ;
+    background-image: url(./pictures/chuttersnap-Zf64Osndqvc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+
+
+
+
+
+
+/* section 1*/
+
+
+
+
+
+
+
+
+
+
+.popular{
+    margin-top: 20px;
+    background-color: #A34343;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.container{
+   
+    width: 80%;
+    /* background-color: blue; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.auteur{
+    background-color: #A34343;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card{
+    /* background-color: rgb(201, 216, 63); */
+    width: 350px;
+    box-shadow: 5px 5px 100px #a59a9a;
+    border-radius: 5px;
+    height: 325px;
+    margin: 50px 0px;
+    cursor: pointer;
+}
+
+.all {
+    display: flex;
+}
+
+.cover{
+   
+    border-bottom-left-radius: 5px;
+}
+
+table tr td{
+    padding: 10px;
+    width: 80px;
+}
+table tr td img{
+    margin-left: 10px;
+    
+}
+.tags{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.tags p{
+    background-color: #A34343;
+    color: white;
+    margin: 3px 2px 0px 0px;
+    padding: 1px 2px 1px 1px;
+    border-radius: 5px;
+}
+
+.number{
+    color:#A34343 ;
+}
+
+.card:hover {
+    .readanddownload{
+        display: block;
+    }
+}
+@keyframes slidedown{
+    0%{
+        opacity: 0;
+        
+
+    }
+    100%{
+        opacity: 1;
+        
+    }
+
+}
+
+.readanddownload{
+    animation: slidedown;
+    display: none;
+    width: 350px;
+    background-color: #F8F6E3;
+    animation-duration: 2s;
+    border-radius: 5px;
+}
+.read{
+    padding-top: 10px;
+}
+.download{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.read button{
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    background-color: #A34343;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.download button{
+    border-radius: 5px;
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    background-color: #A34343;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* div */
+
+
+
+
+.imaaage{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-image: url(./pictures/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+/* section 2*/
+
+
+
+.section2{
+    width: 90%;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    display: flex;
+}
+.fullreview{
+    width: 45%;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 100px;
+    
+    height: 300px;
+    box-shadow: 10px 10px 100px rgb(175, 164, 164);
+    
+}
+.userreview{
+    width: 100%;
+    
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.userreview span{
+    position: relative;
+    top: -45px;
+    left: 10px;
+    font-size: 18px;
+   
+}
+.userreview img{
+    border-radius: 50%;
+
+}
+.userreview p{
+    margin-top: 10px;
+    
+    font-size: 17px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    height: 200px;
+    margin-top: 300px;
+    background-color: #A34343;
+    
+}
+
+footer h1{
+    display: block;
+    margin: 0px auto;
+    margin-top: 100px ; 
+    text-align: center;
+    width: 1000px;
+    font-size: 70px;
+    color: black;
+    background-color: #F8F6E3;
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+    letter-spacing: 100px;
+}

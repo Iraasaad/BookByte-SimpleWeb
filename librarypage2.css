@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F8F6E3;
+}
+
+
+header{
+    display: flex;
+    background-color: #A34343;
+    justify-content: space-around;
+    height: 50px;
+    
+}
+
+.title{
+    background-color: #F8F6E3;
+    height: 37px;
+    margin-top: 5px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page2{
+    color: #A34343;
+    font-weight: 900;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+nav{
+    width: 800px;
+    font-size: 18px;
+}
+nav ul li{
+    cursor: pointer;
+    background-color: #F8F6E3;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    padding-top: 5px;
+    
+}
+nav ul li:hover{
+    
+    color: #A34343;
+    font-weight: 900;
+
+}
+
+.login{
+    padding-top: 9px;
+}
+
+.login button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #F8F6E3;
+}
+
+
+
+/* div */
+
+
+.quote{
+    text-align: center;
+    margin: 2px 0px 2px 0px;
+    
+}
+
+
+
+/* section */
+
+
+
+.container{
+   
+    width: 80%;
+    /* background-color: blue; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.auteur{
+    background-color: #A34343;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card{
+    /* background-color: rgb(201, 216, 63); */
+    width: 350px;
+    box-shadow: 5px 5px 100px #a59a9a;
+    border-radius: 5px;
+    height: 325px;
+    margin: 50px 0px;
+    cursor: pointer;
+}
+
+.all {
+    display: flex;
+}
+
+.cover{
+   
+    border-bottom-left-radius: 5px;
+}
+
+table tr td{
+    padding: 10px;
+    width: 80px;
+}
+table tr td img{
+    margin-left: 10px;
+    
+}
+.tags{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.tags p{
+    background-color: #A34343;
+    color: white;
+    margin: 3px 2px 0px 0px;
+    padding: 1px 2px 1px 1px;
+    border-radius: 5px;
+}
+
+.number{
+    color:#A34343 ;
+}
+.card:hover {
+    .readanddownload{
+        display: block;
+    }
+}
+@keyframes slidedown{
+    0%{
+        opacity: 0;
+        
+
+    }
+    100%{
+        opacity: 1;
+        
+    }
+
+}
+
+.readanddownload{
+    animation: slidedown;
+    display: none;
+    width: 350px;
+    background-color: #F8F6E3;
+    animation-duration: 2s;
+    border-radius: 5px;
+}
+.read{
+    padding-top: 10px;
+}
+.download{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.read button{
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    background-color: #A34343;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.download button{
+    border-radius: 5px;
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    background-color: #A34343;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+/* div pagination */
+
+.pagination {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    color: #333;
+    border: 1px solid #ccc;
+    text-decoration: none;
+  }
+  
+  .pagination a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination .prev,
+  .pagination .next {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination .prev:hover,
+  .pagination .next:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination .disabled {
+    pointer-events: none;
+    color: #999;
+    border-color: #999;
+  }
+  
+  #highlight{
+    background-color: #be7e7e;
+  }
+
+
+
+
+  /* footer */
+
+footer{
+    height: 200px;
+    margin-top: 150px;
+    background-color: #A34343;
+    
+}
+
+footer h1{
+    display: block;
+    margin: 0px auto;
+    margin-top: 100px ; 
+    text-align: center;
+    width: 1000px;
+    font-size: 70px;
+    color: black;
+    background-color: #F8F6E3;
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+    letter-spacing: 100px;
+}
